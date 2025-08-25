@@ -1,0 +1,443 @@
+/* home page */
+
+*{
+     box-sizing: border-box;
+}
+
+
+
+.parent {
+     display: flex;
+     justify-content: space-between;
+     padding: 1rem 5rem;
+     background-color: black; 
+     align-items: center;
+     position: fixed;
+     min-width: 100vw; 
+}
+.child-1{
+    font-size: 2rem;
+    color: goldenrod;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    font-style: italic;
+    text-shadow: 0 0 5px goldenrod;
+    
+}
+.logo{
+    box-shadow: 0 0 7px goldenrod;
+}
+.child-2{
+    display: flex;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 2rem;
+    text-shadow: 0 0 7px white;
+}
+a:hover{
+    color: rgb(225, 147, 29);
+
+}
+.view{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 15rem;
+    background-image: linear-gradient(black , rgb(66, 44, 44),white);  
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 60px;
+}
+.photo{
+   height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+
+}
+.special{
+  height: 100vh;
+    width: 100vw;
+    padding-top: 60px;
+}
+.best{
+  height: 100vh;
+    width: 100vw;
+    padding-top: 60px;
+}
+.lights img{
+    width: 200px;
+    margin: 0 50px;
+    padding-top: 0;
+    height: 100px;
+}
+
+.cafe{
+    margin-top: 1px;
+    /* position: relative; */
+}
+.w{
+    font-size: 24px;
+    font-style: italic;
+    text-shadow: 0 0 0.2px goldenrod;
+    color: rgb(195, 165, 89);
+}
+.c{
+    font-size: 48px;
+    color: rgb(172, 165, 117);
+    font-style: italic;
+    text-shadow: 0 0 0.2px goldenrod;
+    margin-left: 300px;
+}
+.p{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+.b{
+     background-image: radial-gradient(brown,black);
+     padding: 0.7rem;
+     border-radius: 15px;
+     background-color: whitesmoke;
+     margin-top: 0.8rem;
+     color: white;
+}
+.b:hover{
+    transform: scale(1.2);
+    background-image: radial-gradient(gray,brown);
+}
+.table{
+    padding-top: 0;
+    min-height: auto;
+  
+   
+   
+}
+
+
+/* 
+ the best coffee for u  */
+.best{
+    
+     display: flex;
+     justify-content: space-between;
+     height: 90vh;
+     width: 100vw;
+     padding-top: 30rem;
+     align-items: center;
+     padding-bottom: 20rem;
+}
+.bestb:hover{
+     transform: scale(1.1);
+}
+.item-2{
+    font-family:"Edu NSW ACT Cursive";
+    color: orange;
+    font-style: italic;
+    font-size: 2rem;
+    padding-left: 2rem;
+    
+}
+.item-3{
+    display: flex; align-items: center;
+}
+h1{
+    font-size: 2.7rem;
+    
+
+}
+
+
+
+button {
+     background-color: brown;
+     color: white;
+     border: 20px;
+     border-radius: 16px;
+     padding: 6px 8px;
+     width: 100;
+     font-size: 20px;
+     margin-top: 200px;
+     
+}
+
+
+   
+
+
+/* popular items */
+
+
+h1{
+    color: brown;
+
+
+    
+}
+
+
+.items{
+    color: brown;
+    font-family: cursive;
+    margin-left: 50px;
+
+
+}
+
+
+.ganesh{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.gani{
+   text-align: center;
+   padding: 20px;
+
+}
+.gani:hover{
+    background-color: bisque;
+    border-radius: 10%;
+    border: 1px solid; 
+}
+.gani h3{
+    color: brown;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+
+.gani button{
+   font-size: 14px;
+   border: 1px solid;
+   border-radius: 80%;
+   padding: 15px 20px;
+   font-style:italic ;
+/* margin-bottom: 100px; */
+
+
+      
+}
+.order-btn:hover{
+   background-color: brown;
+   color: white; 
+
+}
+/* todays special */
+
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+  /* background-color: #e6e6e6; */
+ 
+ 
+  
+}
+
+.special {
+   padding: 40px 20px;
+   margin-top: 100px;
+}
+
+.coffee-title {
+   font-size: 2rem;
+  color: goldenrod;
+  font-style: italic;
+  text-shadow: 0 0 3px goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+  margin-left: 400px;
+}
+
+.tea-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.underline {
+  width: 100px;
+  height: auto;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.item {
+  /* position: relative; */
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.overlay {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.overlay p {
+  margin: 5px 0 0 0;
+  font-size: 0.85rem;
+}
+
+
+.item1 {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+}
+
+.item2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+}
+
+.item3 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.item4 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+  
+   
+
+
+/* todays menu */
+
+.dailymenu{
+      height: 100vh;
+      width: 100vw; 
+     /* background-image:linear-gradient( to top left, brown,white); */
+
+  
+    }   
+    .Daily{
+            display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;
+
+    }
+    .ss{
+   
+      display:flex ;
+  gap: 0.5rem;
+   align-items: center;
+   font-size: 1rem;
+   font-style: italic;
+   color: burlywood;
+   /* margin-right: 400px; */
+   margin-top: 100px;
+   }
+   h1{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ padding-right: 300px;
+   }
+
+  .menu12{
+    
+    font-style: italic;
+    font-size:  20px;
+  }
+    .PHOTO1 img{
+/* padding: 40px; */
+margin-right: 2rem;
+      height: 300px;
+    width: 300px;
+    margin-top: 100px;
+   
+    }
+    .od1{
+      font-size: 20px;
+      font-style: italic;
+    }
+    button:hover{
+      color:aqua ;
+       transition:color 0.3s ease ;
+    }
+       button {
+        padding: 0.5rem 3rem;
+ background-color:brown;
+  transition:color 0.3s ease ; 
+ border: 0.12rem goldenrod solid;
+  border-radius: 0.9rem; 
+  outline: 0.9 solid blue; 
+ font-size: 1.1rem;
+ margin-top: 40px;
+ text-transform: uppercase;
+ color:white;
+ 
+       }
+
+
+
+
+/* footer */
+
+.case{
+   
+background-color: black;
+/* margin-top: 200px; */
+display: flex;
+justify-content: center;
+gap: 100px;
+flex-wrap: wrap;
+
+   
+}
+.case-1{
+margin-left: 100px;
+color: white;
+padding: 10px;
+margin-right: 100px;
+   
+}
+.case-2{
+color: white;
+   
+}
+.case-3{
+color: white;
+
+}
+.case-3 a{
+font-size: 2rem;
+border: 1px solid;
+border-radius: 20%;
+gap: 10px;
+}
